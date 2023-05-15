@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topo{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(229, 204, 138);
+}
+.topo img {
+    width: 80px;
+    position: relative;
+    top: 0;
+    left: 10%;
+    border-radius: 10px;
+}
+.topo div{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+}
+.topo div a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none; 
+    letter-spacing: 2px;
+    color: #0a0a04;
+}
+.topo a:hover{
+    color: #fff;
+}
+.container-parallax1,
+.container-parallax2,
+.container-parallax3,
+.container-parallax4,
+.container-parallax5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-parallax1{
+    background-image: url('./assets/parallax1.webp');
+    height: 100vh;
+}
+.container-parallax1 h1{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 100px;
+    color: rgb(245, 61, 6);
+    text-align: center;
+}
+.container-parallax2{
+    height: 50vh;
+    background-image: url('./assets/parallax2.jpg');
+}
+.container-parallax2 h3,
+.container-parallax3 h3,
+.container-parallax4 h3,
+.container-parallax5 h3{
+    width: 500px;
+    padding: 10px 10px;
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #604829;
+    color: white;
+}
+.container-parallax3{
+    background-image: url('./assets/parallax3.webp');
+    height: 50vh;
+}
+.container-parallax4{
+    background-image: url('./assets/parallax4.jpg');
+    height: 50vh;
+}
+.container-parallax5{
+    background-image: url('./assets/parallax5.jpg');
+    height: 50vh;
+}
+
+.container-texto{
+    padding: 80px 0px;
+    text-align: center;
+    background-color: #caf1eb;
+}
+.container-texto h2{
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    color: #b37d3d;
+}
+.container-texto p{
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: #030202;
+}
+.container-rodape{
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #0a0a04;
+    color: #fff;
+}
+.container-rodape span{
+    color: #c4a47c;
+}
+.container-rodape a{
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    background-image: url('./assets/png-transparent-arrow-up-logo-arrow-computer-icons-chevron-symbol-up-arrow-angle-triangle-black-thumbnail.png');
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 5px; 
+    border:2px solid #da8f34;
+}
+
+ 
