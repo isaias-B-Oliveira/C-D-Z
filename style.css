@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width: 100vw;
-    height: 100vh;
-}
 .topo{
     width: 100%;
     position: fixed;
@@ -43,8 +39,6 @@ body{
 .container-parallax3,
 .container-parallax4,
 .container-parallax5{
-    max-width: 1200px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     position: relative;
     background-position: center;
     background-size: cover;
@@ -156,8 +150,5 @@ body{
         width: 100%;
         content: normal;
         
-    }
-    .topo img{
-        display: none;
-    }    
+    }  
  }
