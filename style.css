@@ -144,9 +144,9 @@
     border-radius: 5px; 
     border:2px solid #da8f34;
 }
-/* 
+
  @media (max-width:768px){
-    body{
+    *{
         width: 100%;    
     }  
- } */
+ } 
