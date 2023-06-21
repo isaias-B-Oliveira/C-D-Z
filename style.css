@@ -145,7 +145,7 @@
     border:2px solid #da8f34;
 }
 
- @media (min-width:768px){
+ @media (max-width:768px){
     body{
         width: 100%;
         content: normal;
